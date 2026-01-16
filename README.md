@@ -4,7 +4,7 @@ Coin Counter Project
 
 INTRODUCTION 
 
-This project is a coin counter project made for real-time coin detection. The architecture used was Yolov8n for the detection and MobilnetV2 for the classification and the models were trained based on two datasets of coins.  
+This project is a coin counter project made for real-time coin detection. The architecture used was Yolov8n for the detection and MobilnetV2 for the classification. The models were trained based on two datasets of coins.  
 
  
 
