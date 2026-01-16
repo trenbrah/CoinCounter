@@ -23,6 +23,7 @@ After installing the zip folder and unzipping it, there are 3 files that are nee
 
 4. CoinDetector.py
 	This file is the main file of all, that uses the previous two files and runs the real-time camera footage, showing the coins that it detects and the total. The paths that need to be altered for the code to run are the following:		
+	
 		I)   yolo_path (this should be the path of the .pt file that the classifierTrainer.py will create)
 		II)  video_path (this should be the path of the .mp4 or .mov etc. file that can be used in case of running the coin detector on a video and not real-time. If the code is run real-time this can be ignored)
 		III) classifier.load_state_dict(torch.load("PATH", map_location=device)) (PATH should be replaced with the name of the .pth file that the classifierTrainer.py will create)		
